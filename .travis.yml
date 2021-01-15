@@ -1,4 +1,9 @@
 language: java
+
 jdk:
-  - openjdk6
-  - openjdk7
+  - openjdk9
+  - openjdk11
+
+arch:
+  - amd64
+  - ppc64le
