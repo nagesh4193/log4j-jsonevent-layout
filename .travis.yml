@@ -7,3 +7,7 @@ jdk:
 arch:
   - amd64
   - ppc64le
+
+before_script:
+  - sudo apt update -y
+  - sudo apt-get install maven
